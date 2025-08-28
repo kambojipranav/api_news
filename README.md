@@ -1,36 +1,34 @@
-📰 Sentiment Analysis & News Data Visualization
-📌 Project Overview
+# 📰 Sentiment Analysis & News Data Visualization  
 
-This project leverages NewsAPI to fetch real-time news data, performs Natural Language Processing (NLP) for sentiment analysis, and visualizes insights with powerful data visualizations.
+## 📌 Project Overview  
+This project leverages **NewsAPI** to fetch real-time news data, performs **Natural Language Processing (NLP)** for sentiment analysis, and visualizes insights with powerful data visualizations.  
 
-🔹 Tech Stack Used:
+🔹 **Tech Stack Used:**  
+- 🐍 Python  
+- 📡 NewsAPI (via `requests`)  
+- 📊 Pandas, Matplotlib, Seaborn  
+- 🌐 Newspaper3k for news scraping  
+- 🧠 NLTK & TextBlob for Sentiment Analysis  
+- ☁️ WordCloud for text visualization  
 
-🐍 Python
+---
 
-📡 NewsAPI (via requests)
+## 🚀 Features  
+✔️ Fetch latest news headlines using API keys  
+✔️ Perform sentiment analysis (Positive, Negative, Neutral)  
+✔️ Visualize results with graphs 📊  
+✔️ Generate insightful **word clouds** ☁️  
+✔️ Export processed data for further analysis  
 
-📊 Pandas, Matplotlib, Seaborn
+---
 
-🌐 Newspaper3k for news scraping
+## ⚙️ Installation & Setup  
 
-🧠 NLTK & TextBlob for Sentiment Analysis
+1. **Clone this repository**  
+   ```bash
+   git clone https://github.com/yourusername/news-sentiment-analysis.git
+   cd news-sentiment-analysis
 
-☁️ WordCloud for text visualization
-
-🚀 Features
-
-✔️ Fetch latest news headlines using API keys
-✔️ Perform sentiment analysis (Positive, Negative, Neutral)
-✔️ Visualize results with graphs 📊
-✔️ Generate insightful word clouds ☁️
-✔️ Export processed data for further analysis
-
-⚙️ Installation & Setup
-
-Clone this repository:
-
-git clone https://github.com/yourusername/news-sentiment-analysis.git
-cd news-sentiment-analysis
 
 
 Install dependencies:
